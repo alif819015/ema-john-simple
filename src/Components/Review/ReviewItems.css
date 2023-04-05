@@ -1,0 +1,48 @@
+.review-items {
+  width: 570px;
+  border: 1px solid gainsboro;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 8px 25px 8px 8px;
+  display: flex;
+  align-items: center;
+}
+.review-items img {
+  width: 91px;
+  height: 91px;
+  border-radius: 8px;
+}
+.product-title {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+
+  color: #1c2b35;
+}
+.review-details {
+    flex-grow: 1;
+}
+.review-details p {
+  margin: 5px 15px;
+}
+.price-color {
+  color: #FF9900;
+}
+
+/* button delete style  */
+.btn-delete{
+   height: 55px;
+   width: 55px;
+   border-radius: 50%;
+   background: rgba(235, 87, 87, 0.3);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.delete-icon{
+    color: #EB5757;
+    height: 30px;
+    width: 30px;
+}
